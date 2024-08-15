@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="home-team">
+          <h3 class="team">HOME</h3>
+          <h4 class="points" id="homePoints">0</h4>
+          <button class="btn" onclick="addOnePointToHome()">+1</button>
+          <button class="btn" onclick="addTwoPointToHome()">+2</button>
+          <button class="btn" onclick="addTreePointToHome()">+3</button>
+        </div>      
+        <div class="guest-team">
+          <h3 class="team">GUEST</h3>
+          <h4 class="points" id="guestPoints">0</h4>
+          <button class="btn" onclick="addOnePointToGuest()">+1</button>
+          <button class="btn" onclick="addTwoPointToGuest()">+2</button>
+          <button class="btn" onclick="addTreePointToGuest()">+3</button>
+        </div>
+        
+    </div>
+    <button class="new-game-btn" onclick="startNewGame()">Start new game</button>
+    <button class="new-game-btn" onclick="whoWinGame()">Who is Leader?</button>
+</body>
+<script src="./scripts.js"></script>
+</html>

@@ -1,0 +1,51 @@
+body {
+    margin: 0;
+    background-color: #1B244A;
+    color: #ffffff;
+    text-align: center;
+    font-size: 40px;
+    font-family: "New Amsterdam", sans-serif;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.team {
+    padding: 0;
+    margin: 0;
+}
+
+.points {
+background-color: black;
+font-size: 20vh;
+text-align: center;
+margin: auto;
+width: 27vw;
+border-radius: 5px;
+}
+
+.btn {
+    background-color: inherit;
+    color:#9AABD8;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    width: 8vw;
+    height: 8vh;
+    font-size: 50%;
+    margin-top: 5%;
+}
+
+.new-game-btn {
+    background-color: inherit;
+    color:#9AABD8;
+    border: 1px solid #9AABD8;
+    border-radius: 5px;
+    width: 30vw;
+    height: 8vh;
+    font-size: 50%;
+    margin-top: 5%;
+    font-weight: 700;
+    text-transform: uppercase;
+}
